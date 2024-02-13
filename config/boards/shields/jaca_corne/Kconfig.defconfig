@@ -1,0 +1,23 @@
+if SHIELD_JACA_CORNE_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "jaca_corne left"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_JACA_CORNE_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "jaca_corne right"
+
+endif
+
+if SHIELD_JACA_CORNE_LEFT || SHIELD_JACA_CORNE_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
