@@ -14,6 +14,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: json_low_pro_left
+    shield: json_lowpro_lft
   - board: seeeduino_xiao_ble
-    shield: json_low_pro_right
+    shield: json_lowpro_rght
