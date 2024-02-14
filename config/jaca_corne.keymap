@@ -93,8 +93,8 @@
 
             bindings = <
 &kp ESCAPE        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PP          &kp F2            &kp F4                   &kp F5             &kp F9          &kp F10         &kp F11       &kp F12          &trans
-&kp LSHFT         &kp K_PREVIOUS     &kp K_NEXT       &kp C_AC_SEARCH   &kp C_AC_REFRESH  &kp C_AC_BACK            &kp C_AC_SCROLL_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp COLON
-&kp LEFT_CONTROL  &bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3             &kp C_AC_SCROLL_DOWN  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
+&kp LSHFT         &kp K_PREVIOUS     &kp K_NEXT       &kp C_AC_SEARCH   &kp C_AC_REFRESH  &kp C_AC_BACK            &kp K_SCROLL_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp COLON
+&kp LEFT_CONTROL  &bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3             &kp K_SCROLL_DOWN  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
                                                       &mo 0             &trans            &trans                   &trans             &trans          &trans
             >;
         };
@@ -111,9 +111,9 @@
 //                                     '---------+----------+----------'       '----------+-----------+----------'
 
             bindings = <
-&kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &kp K_SLEEP  &none  &none             &kp MINUS          &kp EQUAL      &kp BACKSPACE
-&out OUT_USB  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0            &none        &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LEFT_CONTROL
-&out OUT_BLE  &none         &none         &none         &none         &none                   &kp DEL         &none  &none             &none              &kp SQT        &out OUT_TOG
+&kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &kp C_SLEEP  &none  &none             &kp MINUS          &kp EQUAL      &kp BACKSPACE
+&out OUT_USB  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0            &kp K_LOCK   &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LEFT_CONTROL
+&out OUT_BLE  &none         &none         &none         &none         &none                   &kp DEL      &none  &none             &none              &kp SQT        &out OUT_TOG
                                           &mo 0         &trans        &trans                  &trans       &trans &mo 1
             >;
         };
