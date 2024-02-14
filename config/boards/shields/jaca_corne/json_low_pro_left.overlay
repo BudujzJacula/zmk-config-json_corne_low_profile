@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "jaca_corne.dtsi"
+#include "jaca_low_pro.dtsi"
 
 &kscan0 {
 	col-gpios
