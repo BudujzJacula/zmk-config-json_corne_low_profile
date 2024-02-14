@@ -1,8 +1,8 @@
 # Copyright (c) 2021 Casey Webster
 # SPDX-License-Identifier: MIT
 
-config SHIELD_JSON_LOW_PRO_LEFT
-    def_bool $(shields_list_contains,json_low_pro_left)
+config SHIELD_JSON_LOWPRO_LFT
+    def_bool $(shields_list_contains,json_lowpro_lft)
 
-config SHIELD_JSON_LOW_PRO_RIGHT
-    def_bool $(shields_list_contains,json_low_pro_rightp)
+config SHIELD_JSON_LOWPRO_RGHT
+    def_bool $(shields_list_contains,json_lowpro_rght)

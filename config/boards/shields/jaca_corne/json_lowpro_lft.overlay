@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "json_low_pro.dtsi"
+#include "json_lowpro.dtsi"
 
 &kscan0 {
 	col-gpios

@@ -1,21 +1,21 @@
-if SHIELD_JSON_LOW_PRO_LEFT
+if SHIELD_JSON_LOWPRO_LFT
 
 config ZMK_KEYBOARD_NAME
-    default "json_low_pro left"
+    default "json_lowpro lft"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_JSON_LOW_PRO_RIGHT
+if SHIELD_JSON_LOWPRO_RGHT
 
 config ZMK_KEYBOARD_NAME
-    default "json_low_pro right"
+    default "json_lowpro rght"
 
 endif
 
-if SHIELD_JSON_LOW_PRO_LEFT || SHIELD_JSON_LOW_PRO_RIGHT
+if SHIELD_JSON_LOWPRO_LFT || SHIELD_JSON_LOWPRO_RGHT
 
 config ZMK_SPLIT
     default y
